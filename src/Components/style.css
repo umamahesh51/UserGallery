@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.show-area {
+  width: 30%;
+  min-height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.load-btn {
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 6px;
+  background-color: purple;
+  color: white;
+  font-size: 18px;
+}
+
+.loading-text {
+  font-size: 50px;
+  font-weight: bold;
+}
